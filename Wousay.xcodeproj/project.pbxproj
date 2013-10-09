@@ -112,8 +112,7 @@
 		15A9B8DF1805B5B3005975AD /* Wousay */ = {
 			isa = PBXGroup;
 			children = (
-				15A9B8E81805B5B3005975AD /* WousayAppDelegate.h */,
-				15A9B8E91805B5B3005975AD /* WousayAppDelegate.m */,
+				15A9B90E1805B841005975AD /* Models */,
 				15A9B8EB1805B5B3005975AD /* Main.storyboard */,
 				15A9B8EE1805B5B3005975AD /* WousayViewController.h */,
 				15A9B8EF1805B5B3005975AD /* WousayViewController.m */,
@@ -126,6 +125,8 @@
 		15A9B8E01805B5B3005975AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15A9B8E81805B5B3005975AD /* WousayAppDelegate.h */,
+				15A9B8E91805B5B3005975AD /* WousayAppDelegate.m */,
 				15A9B8E11805B5B3005975AD /* Wousay-Info.plist */,
 				15A9B8E21805B5B3005975AD /* InfoPlist.strings */,
 				15A9B8E51805B5B3005975AD /* main.m */,
@@ -150,6 +151,13 @@
 				15A9B9011805B5B3005975AD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15A9B90E1805B841005975AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

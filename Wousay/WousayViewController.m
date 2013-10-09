@@ -14,6 +14,10 @@
 
 @implementation WousayViewController
 
+- (IBAction)askButtonClicked:(UIButton *)sender {
+    NSLog(@"askButton is clicked");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
