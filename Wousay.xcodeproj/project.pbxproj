@@ -21,6 +21,7 @@
 		15A9B8FB1805B5B3005975AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8DD1805B5B3005975AD /* UIKit.framework */; };
 		15A9B9031805B5B3005975AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15A9B9011805B5B3005975AD /* InfoPlist.strings */; };
 		15A9B9051805B5B3005975AD /* WousayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B9041805B5B3005975AD /* WousayTests.m */; };
+		15A9B9111805BD49005975AD /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B9101805BD49005975AD /* Users.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		15A9B9001805B5B3005975AD /* WousayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WousayTests-Info.plist"; sourceTree = "<group>"; };
 		15A9B9021805B5B3005975AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15A9B9041805B5B3005975AD /* WousayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WousayTests.m; sourceTree = "<group>"; };
+		15A9B90F1805BD49005975AD /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Users.h; path = Models/Users.h; sourceTree = "<group>"; };
+		15A9B9101805BD49005975AD /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Users.m; path = Models/Users.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 		15A9B90E1805B841005975AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				15A9B90F1805BD49005975AD /* Users.h */,
+				15A9B9101805BD49005975AD /* Users.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A9B9111805BD49005975AD /* Users.m in Sources */,
 				15A9B8EA1805B5B3005975AD /* WousayAppDelegate.m in Sources */,
 				15A9B8F01805B5B3005975AD /* WousayViewController.m in Sources */,
 				15A9B8E61805B5B3005975AD /* main.m in Sources */,
