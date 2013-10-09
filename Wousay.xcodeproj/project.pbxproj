@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A9B8DA1805B5B3005975AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8D91805B5B3005975AD /* Foundation.framework */; };
+		15A9B8DC1805B5B3005975AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8DB1805B5B3005975AD /* CoreGraphics.framework */; };
+		15A9B8DE1805B5B3005975AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8DD1805B5B3005975AD /* UIKit.framework */; };
+		15A9B8E41805B5B3005975AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15A9B8E21805B5B3005975AD /* InfoPlist.strings */; };
+		15A9B8E61805B5B3005975AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B8E51805B5B3005975AD /* main.m */; };
+		15A9B8EA1805B5B3005975AD /* WousayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B8E91805B5B3005975AD /* WousayAppDelegate.m */; };
+		15A9B8ED1805B5B3005975AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A9B8EB1805B5B3005975AD /* Main.storyboard */; };
+		15A9B8F01805B5B3005975AD /* WousayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B8EF1805B5B3005975AD /* WousayViewController.m */; };
+		15A9B8F21805B5B3005975AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A9B8F11805B5B3005975AD /* Images.xcassets */; };
+		15A9B8F91805B5B3005975AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8F81805B5B3005975AD /* XCTest.framework */; };
+		15A9B8FA1805B5B3005975AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8D91805B5B3005975AD /* Foundation.framework */; };
+		15A9B8FB1805B5B3005975AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A9B8DD1805B5B3005975AD /* UIKit.framework */; };
+		15A9B9031805B5B3005975AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15A9B9011805B5B3005975AD /* InfoPlist.strings */; };
+		15A9B9051805B5B3005975AD /* WousayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9B9041805B5B3005975AD /* WousayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A9B8FC1805B5B3005975AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A9B8CE1805B5B3005975AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A9B8D51805B5B3005975AD;
+			remoteInfo = Wousay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A9B8D61805B5B3005975AD /* Wousay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wousay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A9B8D91805B5B3005975AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15A9B8DB1805B5B3005975AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15A9B8DD1805B5B3005975AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15A9B8E11805B5B3005975AD /* Wousay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wousay-Info.plist"; sourceTree = "<group>"; };
+		15A9B8E31805B5B3005975AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15A9B8E51805B5B3005975AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15A9B8E71805B5B3005975AD /* Wousay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wousay-Prefix.pch"; sourceTree = "<group>"; };
+		15A9B8E81805B5B3005975AD /* WousayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WousayAppDelegate.h; sourceTree = "<group>"; };
+		15A9B8E91805B5B3005975AD /* WousayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WousayAppDelegate.m; sourceTree = "<group>"; };
+		15A9B8EC1805B5B3005975AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A9B8EE1805B5B3005975AD /* WousayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WousayViewController.h; sourceTree = "<group>"; };
+		15A9B8EF1805B5B3005975AD /* WousayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WousayViewController.m; sourceTree = "<group>"; };
+		15A9B8F11805B5B3005975AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15A9B8F71805B5B3005975AD /* WousayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WousayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A9B8F81805B5B3005975AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		15A9B9001805B5B3005975AD /* WousayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WousayTests-Info.plist"; sourceTree = "<group>"; };
+		15A9B9021805B5B3005975AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15A9B9041805B5B3005975AD /* WousayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WousayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A9B8D31805B5B3005975AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B8DC1805B5B3005975AD /* CoreGraphics.framework in Frameworks */,
+				15A9B8DE1805B5B3005975AD /* UIKit.framework in Frameworks */,
+				15A9B8DA1805B5B3005975AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A9B8F41805B5B3005975AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B8F91805B5B3005975AD /* XCTest.framework in Frameworks */,
+				15A9B8FB1805B5B3005975AD /* UIKit.framework in Frameworks */,
+				15A9B8FA1805B5B3005975AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A9B8CD1805B5B3005975AD = {
+			isa = PBXGroup;
+			children = (
+				15A9B8DF1805B5B3005975AD /* Wousay */,
+				15A9B8FE1805B5B3005975AD /* WousayTests */,
+				15A9B8D81805B5B3005975AD /* Frameworks */,
+				15A9B8D71805B5B3005975AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15A9B8D71805B5B3005975AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B8D61805B5B3005975AD /* Wousay.app */,
+				15A9B8F71805B5B3005975AD /* WousayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A9B8D81805B5B3005975AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B8D91805B5B3005975AD /* Foundation.framework */,
+				15A9B8DB1805B5B3005975AD /* CoreGraphics.framework */,
+				15A9B8DD1805B5B3005975AD /* UIKit.framework */,
+				15A9B8F81805B5B3005975AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15A9B8DF1805B5B3005975AD /* Wousay */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B8E81805B5B3005975AD /* WousayAppDelegate.h */,
+				15A9B8E91805B5B3005975AD /* WousayAppDelegate.m */,
+				15A9B8EB1805B5B3005975AD /* Main.storyboard */,
+				15A9B8EE1805B5B3005975AD /* WousayViewController.h */,
+				15A9B8EF1805B5B3005975AD /* WousayViewController.m */,
+				15A9B8F11805B5B3005975AD /* Images.xcassets */,
+				15A9B8E01805B5B3005975AD /* Supporting Files */,
+			);
+			path = Wousay;
+			sourceTree = "<group>";
+		};
+		15A9B8E01805B5B3005975AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B8E11805B5B3005975AD /* Wousay-Info.plist */,
+				15A9B8E21805B5B3005975AD /* InfoPlist.strings */,
+				15A9B8E51805B5B3005975AD /* main.m */,
+				15A9B8E71805B5B3005975AD /* Wousay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15A9B8FE1805B5B3005975AD /* WousayTests */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B9041805B5B3005975AD /* WousayTests.m */,
+				15A9B8FF1805B5B3005975AD /* Supporting Files */,
+			);
+			path = WousayTests;
+			sourceTree = "<group>";
+		};
+		15A9B8FF1805B5B3005975AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B9001805B5B3005975AD /* WousayTests-Info.plist */,
+				15A9B9011805B5B3005975AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A9B8D51805B5B3005975AD /* Wousay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A9B9081805B5B3005975AD /* Build configuration list for PBXNativeTarget "Wousay" */;
+			buildPhases = (
+				15A9B8D21805B5B3005975AD /* Sources */,
+				15A9B8D31805B5B3005975AD /* Frameworks */,
+				15A9B8D41805B5B3005975AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wousay;
+			productName = Wousay;
+			productReference = 15A9B8D61805B5B3005975AD /* Wousay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15A9B8F61805B5B3005975AD /* WousayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A9B90B1805B5B3005975AD /* Build configuration list for PBXNativeTarget "WousayTests" */;
+			buildPhases = (
+				15A9B8F31805B5B3005975AD /* Sources */,
+				15A9B8F41805B5B3005975AD /* Frameworks */,
+				15A9B8F51805B5B3005975AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A9B8FD1805B5B3005975AD /* PBXTargetDependency */,
+			);
+			name = WousayTests;
+			productName = WousayTests;
+			productReference = 15A9B8F71805B5B3005975AD /* WousayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A9B8CE1805B5B3005975AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Wousay;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Armuro;
+				TargetAttributes = {
+					15A9B8F61805B5B3005975AD = {
+						TestTargetID = 15A9B8D51805B5B3005975AD;
+					};
+				};
+			};
+			buildConfigurationList = 15A9B8D11805B5B3005975AD /* Build configuration list for PBXProject "Wousay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A9B8CD1805B5B3005975AD;
+			productRefGroup = 15A9B8D71805B5B3005975AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A9B8D51805B5B3005975AD /* Wousay */,
+				15A9B8F61805B5B3005975AD /* WousayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A9B8D41805B5B3005975AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B8F21805B5B3005975AD /* Images.xcassets in Resources */,
+				15A9B8E41805B5B3005975AD /* InfoPlist.strings in Resources */,
+				15A9B8ED1805B5B3005975AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A9B8F51805B5B3005975AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B9031805B5B3005975AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A9B8D21805B5B3005975AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B8EA1805B5B3005975AD /* WousayAppDelegate.m in Sources */,
+				15A9B8F01805B5B3005975AD /* WousayViewController.m in Sources */,
+				15A9B8E61805B5B3005975AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A9B8F31805B5B3005975AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A9B9051805B5B3005975AD /* WousayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A9B8FD1805B5B3005975AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A9B8D51805B5B3005975AD /* Wousay */;
+			targetProxy = 15A9B8FC1805B5B3005975AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15A9B8E21805B5B3005975AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A9B8E31805B5B3005975AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15A9B8EB1805B5B3005975AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A9B8EC1805B5B3005975AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15A9B9011805B5B3005975AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A9B9021805B5B3005975AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A9B9061805B5B3005975AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15A9B9071805B5B3005975AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A9B9091805B5B3005975AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wousay/Wousay-Prefix.pch";
+				INFOPLIST_FILE = "Wousay/Wousay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15A9B90A1805B5B3005975AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wousay/Wousay-Prefix.pch";
+				INFOPLIST_FILE = "Wousay/Wousay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15A9B90C1805B5B3005975AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wousay.app/Wousay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wousay/Wousay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WousayTests/WousayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		15A9B90D1805B5B3005975AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wousay.app/Wousay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wousay/Wousay-Prefix.pch";
+				INFOPLIST_FILE = "WousayTests/WousayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A9B8D11805B5B3005975AD /* Build configuration list for PBXProject "Wousay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A9B9061805B5B3005975AD /* Debug */,
+				15A9B9071805B5B3005975AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A9B9081805B5B3005975AD /* Build configuration list for PBXNativeTarget "Wousay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A9B9091805B5B3005975AD /* Debug */,
+				15A9B90A1805B5B3005975AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15A9B90B1805B5B3005975AD /* Build configuration list for PBXNativeTarget "WousayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A9B90C1805B5B3005975AD /* Debug */,
+				15A9B90D1805B5B3005975AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A9B8CE1805B5B3005975AD /* Project object */;
+}
